@@ -38,7 +38,7 @@ import copy
 #         plt.title(title)
 #     plt.pause(0.001)  # pause a bit so that plots are updated
 
-# pyRAPL.setup()
+# pyRAPL.setup(devices=[pyRAPL.Device.PKG])
 
 # csv_output = pyRAPL.outputs.CSVOutput('energy_pyRAPL.csv')
 
