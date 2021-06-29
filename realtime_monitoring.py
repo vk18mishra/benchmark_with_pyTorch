@@ -85,6 +85,7 @@ if __name__ == "__main__":
         plt.ylabel('CPU Consumption(%)')
         plt.title('Tracking CPU Consumption Overtime using second process')
         plt.savefig('cpu_consumption_overtime.png')
+        plt.clf()
         plt.plot(x_time, mem_use, '-o')
         plt.xlabel('Time(in secs)')
         plt.ylabel('Memory Consumption(bytes)')
