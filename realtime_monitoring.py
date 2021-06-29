@@ -14,8 +14,13 @@ def get_processes_info():
             pid = process.pid
             name = process.name()
             cpu_usage = process.cpu_percent()
+            try:
+            # get the memory usage in bytes
+                memory_usage = process.memory_full_info().uss
+            except psutil.AccessDenied:
+                memory_usage = 0
             processes.append({
-                'pid': pid, 'cpu_usage': cpu_usage, 'name': name,
+                'pid': pid, 'cpu_usage': cpu_usage, 'name': name, 'memory_usage': memory_usage,
             })
 
     return processes
@@ -31,9 +36,10 @@ def construct_dataframe(processes, columns):
 
 
 if __name__ == "__main__":
-    columns = "pid,cpu_usage,name"
+    columns = "pid,name,cpu_usage,memory_usage"
     cnt = 0
     cpu_use = []
+    mem_use = []
     try:
         while 1:
             # get all process info
@@ -61,21 +67,28 @@ if __name__ == "__main__":
                 #except:
                 #    print("main not started")
                 cpu_use_t = s1.iloc[0]['cpu_usage']
+                mem_use_t = s1.iloc[0]['memory_usage']
                 cnt = cnt+1
-                print("CPU Usage: ",cpu_use_t)
+                #print("CPU Usage: ",cpu_use_t)
+                mem_use.append(mem_use_t)
                 cpu_use.append(cpu_use_t)
             time.sleep(4)
     except KeyboardInterrupt:
         len_cnt = len(cpu_use)
         len_cnt = len_cnt*4
         x_time = list(range(0, len_cnt, 4))
-        print(x_time)
-        print(cpu_use)
+        print("Timestamps: ",x_time)
+        print("CPU Consumption(%): ",cpu_use)
+        print("Memory Usages: ",mem_use)
         plt.plot(x_time, cpu_use, '-o')
         plt.xlabel('Time(in secs)')
         plt.ylabel('CPU Consumption(%)')
         plt.title('Tracking CPU Consumption Overtime using second process')
         plt.savefig('cpu_consumption_overtime.png')
-
+        plt.plot(x_time, mem_use, '-o')
+        plt.xlabel('Time(in secs)')
+        plt.ylabel('Memory Consumption(bytes)')
+        plt.title('Tracking Memory Consumption Overtime using second process')
+        plt.savefig('memory_consumption_with_secondPRO.png')
 
 
