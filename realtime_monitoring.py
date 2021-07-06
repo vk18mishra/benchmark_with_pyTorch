@@ -17,6 +17,7 @@ def get_processes_info():
             try:
             # get the memory usage in bytes
                 memory_usage = process.memory_full_info().uss
+                memory_usage = memory_usage/1000000
             except psutil.AccessDenied:
                 memory_usage = 0
             processes.append({
@@ -88,7 +89,7 @@ if __name__ == "__main__":
         plt.clf()
         plt.plot(x_time, mem_use, '-o')
         plt.xlabel('Time(in secs)')
-        plt.ylabel('Memory Consumption(bytes)')
+        plt.ylabel('Memory Consumption(MB)')
         plt.title('Tracking Memory Consumption Overtime using second process')
         plt.savefig('memory_consumption_with_secondPRO.png')
 

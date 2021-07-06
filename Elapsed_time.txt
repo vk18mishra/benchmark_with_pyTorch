@@ -1,1 +1,1 @@
-Training Time(Elapsed):144.92221426963806
+Training Time(Elapsed):138.02631545066833
