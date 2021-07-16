@@ -1,17 +1,17 @@
 ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 1,0.000,0.000,0.000,0.000,{built-in method builtins.__build_class__}
-3202,0.055,0.000,0.201,0.000,{built-in method builtins.any}
+3202,0.054,0.000,0.201,0.000,{built-in method builtins.any}
 400,0.000,0.000,0.000,0.000,{built-in method builtins.callable}
 2202,0.002,0.000,0.002,0.000,{built-in method builtins.getattr}
-34342,0.044,0.000,0.044,0.000,{built-in method builtins.hasattr}
+34342,0.042,0.000,0.042,0.000,{built-in method builtins.hasattr}
 9739,0.009,0.000,0.009,0.000,{built-in method builtins.id}
 36571,0.037,0.000,0.037,0.000,{built-in method builtins.isinstance}
 248,0.000,0.000,0.000,0.000,{built-in method builtins.issubclass}
 705,0.001,0.000,0.001,0.000,{built-in method builtins.iter}
-11082/10770,0.012,0.000,0.016,0.000,{built-in method builtins.len}
+11068/10756,0.012,0.000,0.016,0.000,{built-in method builtins.len}
 190,0.000,0.000,0.000,0.000,{built-in method builtins.max}
 750,0.001,0.000,0.001,0.000,{built-in method builtins.min}
-332,0.002,0.000,0.049,0.000,{built-in method builtins.next}
+332,0.002,0.000,0.051,0.000,{built-in method builtins.next}
 390,0.000,0.000,0.000,0.000,{built-in method builtins.ord}
 7,0.000,0.000,0.000,0.000,{built-in method builtins.print}
 68,0.000,0.000,0.000,0.000,{method 'keys' of 'collections.OrderedDict' objects}
@@ -26,8 +26,8 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 200,0.000,0.000,0.000,0.000,{method 'getbuffer' of '_io.BytesIO' objects}
 1400,0.001,0.000,0.001,0.000,{method 'getvalue' of '_io.BytesIO' objects}
 1,0.000,0.000,0.000,0.000,{built-in method io.open}
-148,0.033,0.000,0.033,0.000,{method 'acquire' of '_thread.lock' objects}
-115,0.002,0.000,0.002,0.000,{method 'release' of '_thread.lock' objects}
+148,0.016,0.000,0.016,0.000,{method 'acquire' of '_thread.lock' objects}
+114,0.002,0.000,0.002,0.000,{method 'release' of '_thread.lock' objects}
 124,0.001,0.000,0.001,0.000,{method '__enter__' of '_thread.lock' objects}
 124,0.000,0.000,0.000,0.000,{method '__exit__' of '_thread.lock' objects}
 8,0.000,0.000,0.000,0.000,{method 'acquire' of '_thread.RLock' objects}
@@ -40,22 +40,22 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 12387,0.011,0.000,0.011,0.000,{built-in method _stat.S_ISLNK}
 124,0.000,0.000,0.000,0.000,{method 'append' of 'collections.deque' objects}
 8,0.000,0.000,0.000,0.000,{method 'clear' of 'collections.deque' objects}
-107,0.000,0.000,0.000,0.000,{method 'remove' of 'collections.deque' objects}
-48,0.000,0.000,0.000,0.000,{built-in method _weakref._remove_dead_weakref}
+106,0.000,0.000,0.000,0.000,{method 'remove' of 'collections.deque' objects}
+42,0.000,0.000,0.000,0.000,{built-in method _weakref._remove_dead_weakref}
 27,0.000,0.000,0.000,0.000,{built-in method _codecs.utf_8_decode}
 372,0.001,0.000,0.001,0.000,{method 'match' of 're.Pattern' objects}
 369,0.000,0.000,0.000,0.000,{method 'span' of 're.Match' objects}
 2,0.000,0.000,0.000,0.000,{built-in method _sre.compile}
-1499,0.025,0.000,0.025,0.000,{built-in method posix.stat}
+1499,0.026,0.000,0.026,0.000,{built-in method posix.stat}
 1,0.000,0.000,0.000,0.000,{built-in method posix.getcwd}
-12387,0.129,0.000,0.129,0.000,{built-in method posix.lstat}
-8,1.103,0.138,1.104,0.138,{built-in method posix.fork}
+12387,0.136,0.000,0.136,0.000,{built-in method posix.lstat}
+8,1.203,0.150,1.204,0.150,{built-in method posix.fork}
 2,0.000,0.000,0.000,0.000,{built-in method posix.sched_getaffinity}
 314,0.001,0.000,0.001,0.000,{built-in method posix.getpid}
 20,0.000,0.000,0.000,0.000,{built-in method posix.waitpid}
 444,0.003,0.000,0.003,0.000,{built-in method posix.close}
-1400,0.022,0.000,0.022,0.000,{built-in method posix.read}
-800,0.011,0.000,0.011,0.000,{built-in method posix.write}
+1400,0.015,0.000,0.015,0.000,{built-in method posix.read}
+800,0.010,0.000,0.010,0.000,{built-in method posix.write}
 400,0.003,0.000,0.003,0.000,{built-in method posix.fstat}
 26,0.000,0.000,0.000,0.000,{built-in method posix.pipe}
 8,0.000,0.000,0.000,0.000,{built-in method posix.WIFSIGNALED}
@@ -77,12 +77,12 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 300,0.000,0.000,0.000,0.000,{method 'isidentifier' of 'str' objects}
 223,0.001,0.000,0.001,0.000,{method 'format' of 'str' objects}
 4,0.000,0.000,0.000,0.000,{method '__reduce_ex__' of 'object' objects}
-635,0.001,0.000,0.001,0.000,{built-in method __new__ of type object at 0x5613c1674ac0}
+635,0.001,0.000,0.001,0.000,{built-in method __new__ of type object at 0x55f82f487ac0}
 158,0.000,0.000,0.000,0.000,{method 'add' of 'set' objects}
-31,0.000,0.000,0.000,0.000,{method 'discard' of 'set' objects}
+28,0.000,0.000,0.000,0.000,{method 'discard' of 'set' objects}
 8237,0.008,0.000,0.008,0.000,{method 'get' of 'dict' objects}
 244,0.000,0.000,0.000,0.000,{method 'setdefault' of 'dict' objects}
-11,0.000,0.000,0.000,0.000,{method 'pop' of 'dict' objects}
+4,0.000,0.000,0.000,0.000,{method 'pop' of 'dict' objects}
 278,0.000,0.000,0.000,0.000,{method 'items' of 'dict' objects}
 203,0.002,0.000,0.002,0.000,{method 'update' of 'dict' objects}
 51,0.000,0.000,0.000,0.000,{built-in method fromkeys}
@@ -96,17 +96,17 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 3,0.000,0.000,0.000,0.000,{method '__format__' of 'float' objects}
 201,0.000,0.000,0.000,0.000,{method 'find' of 'bytearray' objects}
 6,0.000,0.000,0.000,0.000,{method 'translate' of 'bytearray' objects}
-1,0.002,0.002,0.002,0.002,{method 'readlines' of '_io._IOBase' objects}
+1,0.001,0.001,0.002,0.002,{method 'readlines' of '_io._IOBase' objects}
 1,0.000,0.000,0.000,0.000,{method 'decode' of 'bytes' objects}
 400,0.000,0.000,0.000,0.000,{method 'ljust' of 'bytes' objects}
 1,0.000,0.000,0.000,0.000,{method 'startswith' of 'bytes' objects}
 800,0.001,0.000,0.001,0.000,{method 'translate' of 'bytes' objects}
 2000,0.003,0.000,0.003,0.000,{built-in method torch._C._get_cudnn_enabled}
-44256,0.039,0.000,0.039,0.000,{built-in method torch._C._has_torch_function_unary}
+44256,0.038,0.000,0.038,0.000,{built-in method torch._C._has_torch_function_unary}
 200,0.000,0.000,0.000,0.000,{built-in method torch._C._has_torch_function_variadic}
 2,0.000,0.000,0.000,0.000,{built-in method torch._C._set_worker_pids}
 2,0.000,0.000,0.000,0.000,{built-in method torch._C._remove_worker_pids}
-3,0.000,0.000,0.000,0.000,{built-in method torch._C._error_if_any_worker_fails}
+5,0.000,0.000,0.000,0.000,{built-in method torch._C._error_if_any_worker_fails}
 1054,0.001,0.000,0.001,0.000,{built-in method torch._C._set_grad_enabled}
 1381,0.002,0.000,0.002,0.000,{built-in method torch._C.is_grad_enabled}
 122,0.044,0.000,0.044,0.000,{method 'copy_' of 'torch._C._TensorBase' objects}
@@ -115,7 +115,7 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 107,0.001,0.000,0.001,0.000,{method 'item' of 'torch._C._TensorBase' objects}
 244,0.002,0.000,0.002,0.000,{method 'new' of 'torch._C._TensorBase' objects}
 61,0.000,0.000,0.000,0.000,{method 'numel' of 'torch._C._TensorBase' objects}
-6138,0.013,0.000,0.013,0.000,{method 'requires_grad_' of 'torch._C._TensorBase' objects}
+6138,0.012,0.000,0.012,0.000,{method 'requires_grad_' of 'torch._C._TensorBase' objects}
 444,0.006,0.000,0.006,0.000,{method 'set_' of 'torch._C._TensorBase' objects}
 1664,0.006,0.000,0.006,0.000,{method 'size' of 'torch._C._TensorBase' objects}
 244,0.001,0.000,0.001,0.000,{method 'storage' of 'torch._C._TensorBase' objects}
@@ -123,33 +123,33 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 244,0.000,0.000,0.000,0.000,{method 'stride' of 'torch._C._TensorBase' objects}
 200,0.002,0.000,0.002,0.000,{method 'to' of 'torch._C._TensorBase' objects}
 2,0.000,0.000,0.000,0.000,{method 'tolist' of 'torch._C._TensorBase' objects}
-7502,1.029,0.000,1.029,0.000,{method 'add_' of 'torch._C._TensorBase' objects}
+7502,1.006,0.000,1.006,0.000,{method 'add_' of 'torch._C._TensorBase' objects}
 306,0.002,0.000,0.002,0.000,{method 'detach' of 'torch._C._TensorBase' objects}
-3720,0.434,0.000,0.434,0.000,{method 'mul_' of 'torch._C._TensorBase' objects}
+3720,0.425,0.000,0.425,0.000,{method 'mul_' of 'torch._C._TensorBase' objects}
 4,0.000,0.000,0.000,0.000,{method 'random_' of 'torch._C._TensorBase' objects}
-6138,0.736,0.000,0.736,0.000,{method 'zero_' of 'torch._C._TensorBase' objects}
-7700,0.025,0.000,0.025,0.000,{built-in method torch._C._get_tracing_state}
-204,0.079,0.000,0.079,0.000,{method 'copy_' of 'torch._C.FloatStorageBase' objects}
+6138,0.724,0.000,0.724,0.000,{method 'zero_' of 'torch._C._TensorBase' objects}
+7700,0.023,0.000,0.023,0.000,{built-in method torch._C._get_tracing_state}
+204,0.070,0.000,0.070,0.000,{method 'copy_' of 'torch._C.FloatStorageBase' objects}
 204,0.000,0.000,0.000,0.000,{method 'size' of 'torch._C.FloatStorageBase' objects}
-100,0.002,0.000,0.002,0.000,{built-in method _new_shared_fd}
+100,0.005,0.000,0.005,0.000,{built-in method _new_shared_fd}
 100,0.000,0.000,0.000,0.000,{method '_weak_ref' of 'torch._C.FloatStorageBase' objects}
-120,0.001,0.000,0.001,0.000,{built-in method _free_weak_ref}
+122,0.001,0.000,0.001,0.000,{built-in method _free_weak_ref}
 129,0.000,0.000,0.000,0.000,{built-in method _expired}
 40,0.000,0.000,0.000,0.000,{method 'copy_' of 'torch._C.LongStorageBase' objects}
 40,0.000,0.000,0.000,0.000,{method 'size' of 'torch._C.LongStorageBase' objects}
 100,0.000,0.000,0.000,0.000,{method '_weak_ref' of 'torch._C.LongStorageBase' objects}
 263,0.008,0.000,0.008,0.000,{built-in method torch._ops.profiler._record_function_enter}
 263,0.007,0.000,0.007,0.000,{built-in method torch._ops.profiler._record_function_exit}
-8,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/queues.py:200(_finalize_close)
-40,0.010,0.000,0.050,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:50(__init__)
+8,0.000,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/queues.py:200(_finalize_close)
+40,0.010,0.000,0.052,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:50(__init__)
 40,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:90(_make_methods)
 10,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:94(__enter__)
 10,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:97(__exit__)
-40,0.002,0.000,0.034,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:114(_make_name)
+40,0.002,0.000,0.035,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:114(_make_name)
 8,0.000,0.000,0.009,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:125(__init__)
-10,0.000,0.000,0.011,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:144(__init__)
+10,0.000,0.000,0.012,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:144(__init__)
 22,0.001,0.000,0.032,0.001,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:161(__init__)
-8,0.001,0.000,1.110,0.139,/opt/conda/lib/python3.8/multiprocessing/popen_fork.py:15(__init__)
+8,0.001,0.000,1.210,0.151,/opt/conda/lib/python3.8/multiprocessing/popen_fork.py:15(__init__)
 2,0.000,0.000,0.007,0.003,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:212(__init__)
 10,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:229(__enter__)
 10,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:232(__exit__)
@@ -159,82 +159,82 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 28,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/popen_fork.py:24(poll)
 2,0.000,0.000,0.012,0.006,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:323(__init__)
 8,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:327(is_set)
-2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:334(set)
-8,0.000,0.000,0.135,0.017,/opt/conda/lib/python3.8/multiprocessing/popen_fork.py:40(wait)
-8,0.003,0.000,1.109,0.139,/opt/conda/lib/python3.8/multiprocessing/popen_fork.py:66(_launch)
-10,0.003,0.000,0.052,0.005,/opt/conda/lib/python3.8/multiprocessing/queues.py:36(__init__)
+2,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/synchronize.py:334(set)
+8,0.000,0.000,0.143,0.018,/opt/conda/lib/python3.8/multiprocessing/popen_fork.py:40(wait)
+8,0.003,0.000,1.209,0.151,/opt/conda/lib/python3.8/multiprocessing/popen_fork.py:66(_launch)
+10,0.003,0.000,0.053,0.005,/opt/conda/lib/python3.8/multiprocessing/queues.py:36(__init__)
 10,0.001,0.000,0.003,0.000,/opt/conda/lib/python3.8/multiprocessing/queues.py:67(_after_fork)
-108,0.007,0.000,0.066,0.001,/opt/conda/lib/python3.8/multiprocessing/queues.py:80(put)
-100,0.011,0.000,1.678,0.017,/opt/conda/lib/python3.8/multiprocessing/queues.py:92(get)
-8,0.001,0.000,0.003,0.000,/opt/conda/lib/python3.8/multiprocessing/queues.py:134(close)
+108,0.008,0.000,0.051,0.000,/opt/conda/lib/python3.8/multiprocessing/queues.py:80(put)
+100,0.011,0.000,1.825,0.018,/opt/conda/lib/python3.8/multiprocessing/queues.py:92(get)
+8,0.000,0.000,0.003,0.000,/opt/conda/lib/python3.8/multiprocessing/queues.py:134(close)
 16,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/queues.py:150(cancel_join_thread)
-8,0.002,0.000,0.044,0.005,/opt/conda/lib/python3.8/multiprocessing/queues.py:158(_start_thread)
+8,0.002,0.000,0.027,0.003,/opt/conda/lib/python3.8/multiprocessing/queues.py:158(_start_thread)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torchvision/datasets/folder.py:240(__len__)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:842(_enable)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:850(enable)
-1,0.220,0.220,0.220,0.220,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:860(_disable)
-1,0.000,0.000,0.220,0.220,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:869(disable)
+1,0.218,0.218,0.218,0.218,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:860(_disable)
+1,0.000,0.000,0.218,0.218,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:869(disable)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:879(__enter__)
-1,0.000,0.000,0.220,0.220,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:886(__exit__)
-800,0.320,0.000,42.122,0.053,/opt/conda/lib/python3.8/site-packages/torchvision/models/resnet.py:67(forward)
-100,0.034,0.000,50.090,0.501,/opt/conda/lib/python3.8/site-packages/torchvision/models/resnet.py:230(_forward_impl)
-100,0.002,0.000,50.092,0.501,/opt/conda/lib/python3.8/site-packages/torchvision/models/resnet.py:248(forward)
+1,0.000,0.000,0.218,0.218,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:886(__exit__)
+800,0.306,0.000,41.013,0.051,/opt/conda/lib/python3.8/site-packages/torchvision/models/resnet.py:67(forward)
+100,0.032,0.000,48.524,0.485,/opt/conda/lib/python3.8/site-packages/torchvision/models/resnet.py:230(_forward_impl)
+100,0.002,0.000,48.526,0.485,/opt/conda/lib/python3.8/site-packages/torchvision/models/resnet.py:248(forward)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:597(__init__)
-1,0.000,0.000,4.554,4.554,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:602(add)
+1,0.000,0.000,4.619,4.619,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:602(add)
 70,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:652(<genexpr>)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:646(items)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:659(__init__)
-1,0.000,0.000,4.554,4.554,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:670(__call__)
-1,0.000,0.000,4.554,4.554,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:685(add_function)
+1,0.000,0.000,4.620,4.620,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:670(__call__)
+1,0.000,0.000,4.620,4.620,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:685(add_function)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:697(_count_ctxmgr)
-1,0.001,0.001,138.279,138.279,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:715(f)
+1,0.001,0.001,134.341,134.341,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:715(f)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:705(wrap_function)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:731(enable_by_count)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:738(disable_by_count)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:798(enable)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:805(disable)
 1,0.004,0.004,0.007,0.007,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:809(show_results)
-1,0.000,0.000,142.840,142.840,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:1140(wrapper)
+1,0.000,0.000,138.969,138.969,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:1140(wrapper)
 4,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:1167(<genexpr>)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/memory_profiler.py:1155(choose_backend)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/pprofile/__init__.py:346(_initStack)
-100,0.004,0.000,1.682,0.017,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:977(_try_get_data)
-100,0.004,0.000,1.686,0.017,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1123(_get_data)
-102,0.010,0.000,1.880,0.018,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1156(_next_data)
-116,0.009,0.000,0.091,0.001,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1205(_try_put_index)
-100,0.003,0.000,0.040,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1225(_process_data)
-8,0.000,0.000,0.003,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1232(_mark_worker_as_unavailable)
-4,0.001,0.000,0.144,0.036,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1258(_shutdown_workers)
-2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1327(__del__)
-3,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/signal_handling.py:63(handler)
-2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/signal_handling.py:47(_set_SIGCHLD_handler)
-399,0.003,0.000,0.004,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/sampler.py:112(__iter__)
-104,0.011,0.000,0.015,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/sampler.py:224(__iter__)
-2,0.000,0.000,1.249,0.624,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:300(_get_iterator)
-2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:307(multiprocessing_context)
-2,0.000,0.000,1.249,0.624,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:346(__iter__)
-4,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:361(_auto_collation)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:365(_index_sampler)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:406(check_worker_number_rationality)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:485(__init__)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:506(_reset)
-116,0.001,0.000,0.017,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:511(_next_index)
-102,0.009,0.000,1.905,0.019,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:517(__next__)
+116,0.001,0.000,0.018,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:511(_next_index)
+102,0.009,0.000,2.061,0.020,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:517(__next__)
 10,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:941(<genexpr>)
-2,0.005,0.003,1.248,0.624,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:877(__init__)
+2,0.005,0.002,1.334,0.667,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:877(__init__)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:962(<listcomp>)
-2,0.001,0.000,0.056,0.028,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:946(_reset)
+2,0.001,0.000,0.041,0.021,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:946(_reset)
+100,0.004,0.000,1.829,0.018,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:977(_try_get_data)
+100,0.004,0.000,1.833,0.018,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1123(_get_data)
+102,0.010,0.000,2.035,0.020,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1156(_next_data)
+116,0.010,0.000,0.077,0.001,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1205(_try_put_index)
+100,0.003,0.000,0.041,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1225(_process_data)
+8,0.000,0.000,0.003,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1232(_mark_worker_as_unavailable)
+4,0.001,0.000,0.152,0.038,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1258(_shutdown_workers)
+2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:1327(__del__)
+5,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/signal_handling.py:63(handler)
+2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/signal_handling.py:47(_set_SIGCHLD_handler)
+399,0.003,0.000,0.004,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/sampler.py:112(__iter__)
+104,0.011,0.000,0.016,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/sampler.py:224(__iter__)
+2,0.000,0.000,1.334,0.667,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:300(_get_iterator)
+2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:307(multiprocessing_context)
+2,0.000,0.000,1.335,0.667,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:346(__iter__)
+4,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py:361(_auto_collation)
 4,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/backends/quantized/__init__.py:44(__getattr__)
 200,0.004,0.000,0.005,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:26(__init__)
 129,0.003,0.000,0.003,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:32(expired)
-120,0.002,0.000,0.003,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:35(__del__)
+122,0.001,0.000,0.002,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:35(__del__)
 200,0.004,0.000,0.004,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:55(get)
-200,0.005,0.000,0.018,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:59(__setitem__)
-1,0.007,0.007,0.013,0.013,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:65(free_dead_references)
-200,0.009,0.000,0.023,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:88(rebuild_tensor)
+200,0.005,0.000,0.017,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:59(__setitem__)
+1,0.007,0.007,0.012,0.012,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:65(free_dead_references)
+200,0.009,0.000,0.022,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:88(rebuild_tensor)
 400,0.007,0.000,0.009,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:273(fd_id)
 200,0.005,0.000,0.009,0.000,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:281(storage_from_cache)
-200,0.022,0.000,1.112,0.006,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:288(rebuild_storage_fd)
+200,0.022,0.000,1.241,0.006,/opt/conda/lib/python3.8/site-packages/torch/multiprocessing/reductions.py:288(rebuild_storage_fd)
 16,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/util.py:44(sub_debug)
 98,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/util.py:48(debug)
 50,0.001,0.000,0.005,0.000,/opt/conda/lib/python3.8/multiprocessing/util.py:171(register_after_fork)
@@ -242,41 +242,41 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 16,0.001,0.000,0.003,0.000,/opt/conda/lib/python3.8/multiprocessing/util.py:205(__call__)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/util.py:433(_flush_std_streams)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/util.py:461(close_fds)
-200,0.009,0.000,1.043,0.005,/opt/conda/lib/python3.8/multiprocessing/resource_sharer.py:55(detach)
-200,0.016,0.000,0.950,0.005,/opt/conda/lib/python3.8/multiprocessing/resource_sharer.py:82(get_connection)
+200,0.010,0.000,1.157,0.006,/opt/conda/lib/python3.8/multiprocessing/resource_sharer.py:55(detach)
+200,0.016,0.000,1.057,0.005,/opt/conda/lib/python3.8/multiprocessing/resource_sharer.py:82(get_connection)
 200,0.003,0.000,0.003,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:83(_validate_family)
-400,0.010,0.000,0.011,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:95(address_type)
+400,0.344,0.001,0.344,0.001,/opt/conda/lib/python3.8/multiprocessing/connection.py:95(address_type)
 220,0.008,0.000,0.008,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:117(__init__)
-219,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:130(__del__)
+216,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:130(__del__)
 1900,0.018,0.000,0.018,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:134(_check_closed)
-800,0.341,0.000,0.341,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:138(_check_readable)
-800,0.007,0.000,0.007,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:142(_check_writable)
+800,0.007,0.000,0.007,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:138(_check_readable)
+800,0.008,0.000,0.008,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:142(_check_writable)
 300,0.006,0.000,0.009,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:168(fileno)
-208,0.006,0.000,0.010,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:173(close)
-600,0.048,0.000,0.114,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:181(send_bytes)
-200,0.010,0.000,0.050,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:202(send)
-700,0.038,0.000,0.677,0.001,/opt/conda/lib/python3.8/multiprocessing/connection.py:208(recv_bytes)
-100,0.004,0.000,0.351,0.004,/opt/conda/lib/python3.8/multiprocessing/connection.py:253(poll)
+208,0.006,0.000,0.011,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:173(close)
+600,0.047,0.000,0.114,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:181(send_bytes)
+200,0.010,0.000,0.048,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:202(send)
+700,0.041,0.000,0.341,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:208(recv_bytes)
+100,0.004,0.000,0.362,0.004,/opt/conda/lib/python3.8/multiprocessing/connection.py:253(poll)
 200,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:259(__enter__)
 200,0.003,0.000,0.013,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:262(__exit__)
 212,0.002,0.000,0.005,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:360(_close)
 800,0.027,0.000,0.038,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:365(_send)
-1400,0.231,0.000,0.257,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:374(_recv)
-800,0.033,0.000,0.073,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:390(_send_bytes)
-700,0.032,0.000,0.291,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:413(_recv_bytes)
-100,0.003,0.000,0.345,0.003,/opt/conda/lib/python3.8/multiprocessing/connection.py:423(_poll)
-200,0.018,0.000,0.876,0.004,/opt/conda/lib/python3.8/multiprocessing/connection.py:493(Client)
+1400,0.233,0.000,0.251,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:374(_recv)
+800,0.032,0.000,0.072,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:390(_send_bytes)
+700,0.033,0.000,0.286,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:413(_recv_bytes)
+100,0.003,0.000,0.356,0.004,/opt/conda/lib/python3.8/multiprocessing/connection.py:423(_poll)
+200,0.018,0.000,0.985,0.005,/opt/conda/lib/python3.8/multiprocessing/connection.py:493(Client)
 10,0.001,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:516(Pipe)
-200,0.018,0.000,0.056,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:623(SocketClient)
+200,0.135,0.001,0.174,0.001,/opt/conda/lib/python3.8/multiprocessing/connection.py:623(SocketClient)
 200,0.018,0.000,0.213,0.001,/opt/conda/lib/python3.8/multiprocessing/connection.py:732(deliver_challenge)
-200,0.021,0.000,0.580,0.003,/opt/conda/lib/python3.8/multiprocessing/connection.py:747(answer_challenge)
+200,0.021,0.000,0.238,0.001,/opt/conda/lib/python3.8/multiprocessing/connection.py:747(answer_challenge)
 108,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/connection.py:933(<listcomp>)
-108,0.012,0.000,0.476,0.004,/opt/conda/lib/python3.8/multiprocessing/connection.py:917(wait)
-61,0.431,0.007,1.906,0.031,/opt/conda/lib/python3.8/site-packages/torch/optim/_functional.py:146(sgd)
-61,0.006,0.000,2.601,0.043,/opt/conda/lib/python3.8/site-packages/torch/optim/optimizer.py:83(wrapper)
-100,0.407,0.004,1.870,0.019,/opt/conda/lib/python3.8/site-packages/torch/optim/optimizer.py:188(zero_grad)
-61,0.324,0.005,2.569,0.042,/opt/conda/lib/python3.8/site-packages/torch/optim/sgd.py:76(step)
-61,0.003,0.000,2.604,0.043,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:60(wrapper)
+108,0.012,0.000,0.495,0.005,/opt/conda/lib/python3.8/multiprocessing/connection.py:917(wait)
+61,0.421,0.007,1.863,0.031,/opt/conda/lib/python3.8/site-packages/torch/optim/_functional.py:146(sgd)
+61,0.005,0.000,2.543,0.042,/opt/conda/lib/python3.8/site-packages/torch/optim/optimizer.py:83(wrapper)
+100,0.409,0.004,1.859,0.019,/opt/conda/lib/python3.8/site-packages/torch/optim/optimizer.py:188(zero_grad)
+61,0.317,0.005,2.512,0.041,/opt/conda/lib/python3.8/site-packages/torch/optim/sgd.py:76(step)
+61,0.003,0.000,2.546,0.042,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:60(wrapper)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:105(print_lr)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:139(__init__)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:142(__enter__)
@@ -286,59 +286,59 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:117(step)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:373(<listcomp>)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:367(get_lr)
-2000,0.022,0.000,0.024,0.000,/opt/conda/lib/python3.8/site-packages/torch/backends/__init__.py:31(__get__)
+2000,0.022,0.000,0.025,0.000,/opt/conda/lib/python3.8/site-packages/torch/backends/__init__.py:31(__get__)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/backends/__init__.py:46(__getattr__)
-100,0.005,0.000,2.691,0.027,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/pooling.py:161(forward)
-20,0.002,0.000,0.069,0.003,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py:87(_load_from_state_dict)
-2000,0.537,0.000,4.340,0.002,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py:133(forward)
-2000,0.025,0.000,0.030,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py:405(_check_input_dim)
-100,0.002,0.000,0.025,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/pooling.py:1131(forward)
+100,0.005,0.000,2.688,0.027,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/pooling.py:161(forward)
+20,0.002,0.000,0.068,0.003,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py:87(_load_from_state_dict)
+2000,0.410,0.000,3.934,0.002,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py:133(forward)
+2000,0.025,0.000,0.029,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py:405(_check_input_dim)
+100,0.002,0.000,0.023,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/pooling.py:1131(forward)
 700,0.009,0.000,0.011,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/container.py:129(__iter__)
-700/400,0.047,0.000,42.219,0.106,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/container.py:137(forward)
+700/400,0.046,0.000,41.099,0.103,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/container.py:137(forward)
 100,0.004,0.000,0.023,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/loss.py:1119(forward)
 1706,0.043,0.000,0.134,0.000,/opt/conda/lib/python3.8/site-packages/torch/package/package_importer.py:588(patched_getfile)
 100,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/utils.py:34(<listcomp>)
 100,0.004,0.000,0.007,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/utils.py:29(_list_with_default)
-2000,0.082,0.000,41.020,0.021,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/conv.py:434(_conv_forward)
-2000,0.075,0.000,41.200,0.021,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/conv.py:442(forward)
-1700,0.035,0.000,0.395,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/activation.py:101(forward)
+2000,0.079,0.000,39.927,0.020,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/conv.py:434(_conv_forward)
+2000,0.072,0.000,40.103,0.020,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/conv.py:442(forward)
+1700,0.034,0.000,0.377,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/activation.py:101(forward)
 427,0.013,0.000,0.017,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:119(__init__)
 427,0.010,0.000,0.019,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:124(__enter__)
 427,0.008,0.000,0.016,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:128(__exit__)
 954,0.016,0.000,0.019,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:213(__init__)
 100,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:217(__enter__)
-100,0.001,0.000,0.002,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:220(__exit__)
-263,0.006,0.000,0.013,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/profiler.py:605(__init__)
+100,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:220(__exit__)
+263,0.007,0.000,0.013,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/profiler.py:605(__init__)
 263,0.007,0.000,0.014,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/profiler.py:613(__enter__)
-263,0.007,0.000,0.014,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/profiler.py:617(__exit__)
-61,0.004,0.000,0.006,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/__init__.py:28(_make_grads)
+263,0.007,0.000,0.013,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/profiler.py:617(__exit__)
+61,0.004,0.000,0.005,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/__init__.py:28(_make_grads)
 61,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/site-packages/torch/autograd/__init__.py:60(_tensor_or_tensors_to_tuple)
-61,0.009,0.000,79.412,1.302,/opt/conda/lib/python3.8/site-packages/torch/autograd/__init__.py:68(backward)
-61,0.006,0.000,2.584,0.042,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:25(decorate_context)
-100,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/_reduction.py:7(get_enum)
+61,0.009,0.000,76.901,1.261,/opt/conda/lib/python3.8/site-packages/torch/autograd/__init__.py:68(backward)
+61,0.006,0.000,2.527,0.041,/opt/conda/lib/python3.8/site-packages/torch/autograd/grad_mode.py:25(decorate_context)
+100,0.003,0.000,0.003,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/_reduction.py:7(get_enum)
 671,0.006,0.000,0.006,0.000,/opt/conda/lib/python3.8/site-packages/torch/_jit_internal.py:881(is_scripting)
 122,0.001,0.000,0.002,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/parameter.py:129(is_lazy)
 476,0.007,0.000,0.007,0.000,<string>:1(__new__)
-100,0.005,0.000,2.680,0.027,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:696(_max_pool2d)
-100,0.005,0.000,0.022,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:1116(adaptive_avg_pool2d)
-1700,0.059,0.000,0.360,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:1287(relu)
+100,0.005,0.000,2.677,0.027,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:696(_max_pool2d)
+100,0.004,0.000,0.021,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:1116(adaptive_avg_pool2d)
+1700,0.058,0.000,0.342,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:1287(relu)
 100,0.003,0.000,0.011,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:1831(linear)
-1220,0.051,0.000,0.053,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:2233(_verify_batch_size)
-2000,0.229,0.000,3.244,0.002,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:2250(batch_norm)
+1220,0.052,0.000,0.053,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:2233(_verify_batch_size)
+2000,0.215,0.000,2.972,0.001,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:2250(batch_norm)
 100,0.004,0.000,0.015,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/functional.py:2761(cross_entropy)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/_VF.py:25(__getattr__)
-100,0.006,0.000,2.686,0.027,/opt/conda/lib/python3.8/site-packages/torch/_jit_internal.py:395(fn)
-7700/200,0.634,0.000,50.131,0.251,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1045(_call_impl)
-21920,0.885,0.000,0.885,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1117(__getattr__)
-1356,0.121,0.000,0.130,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1133(__setattr__)
+100,0.006,0.000,2.683,0.027,/opt/conda/lib/python3.8/site-packages/torch/_jit_internal.py:395(fn)
+7700/200,0.611,0.000,48.564,0.243,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1045(_call_impl)
+21920,0.886,0.000,0.886,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1117(__getattr__)
+1356,0.115,0.000,0.124,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1133(__setattr__)
 136,0.008,0.000,0.009,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1202(_save_to_state_dict)
-100,0.004,0.000,0.021,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/linear.py:95(forward)
+100,0.004,0.000,0.020,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/linear.py:95(forward)
 136/2,0.010,0.000,0.020,0.010,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1236(state_dict)
 68,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1312(<dictcomp>)
 68,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1314(<dictcomp>)
-68,0.147,0.002,0.219,0.003,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1276(_load_from_state_dict)
-68/1,0.005,0.000,0.226,0.226,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1384(load)
-1,0.000,0.000,0.226,0.226,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1354(load_state_dict)
+68,0.146,0.002,0.218,0.003,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1276(_load_from_state_dict)
+68/1,0.005,0.000,0.225,0.225,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1384(load)
+1,0.000,0.000,0.225,0.225,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1354(load_state_dict)
 270,0.006,0.000,0.011,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1521(children)
 270,0.005,0.000,0.006,0.000,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1530(named_children)
 136/2,0.009,0.000,0.030,0.015,/opt/conda/lib/python3.8/site-packages/torch/nn/modules/module.py:1622(train)
@@ -348,39 +348,39 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 244,0.003,0.000,0.003,0.000,/opt/conda/lib/python3.8/site-packages/torch/cuda/__init__.py:231(__exit__)
 244,0.011,0.000,0.024,0.000,/opt/conda/lib/python3.8/site-packages/torch/cuda/_utils.py:7(_get_device_index)
 244,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/site-packages/torch/storage.py:13(__init__)
-244,0.009,0.000,0.141,0.001,/opt/conda/lib/python3.8/site-packages/torch/storage.py:44(__deepcopy__)
-244,0.014,0.000,0.132,0.001,/opt/conda/lib/python3.8/site-packages/torch/storage.py:60(clone)
-244,0.035,0.000,0.216,0.001,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:51(__deepcopy__)
-61,0.003,0.000,79.416,1.302,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:205(backward)
+244,0.009,0.000,0.133,0.001,/opt/conda/lib/python3.8/site-packages/torch/storage.py:44(__deepcopy__)
+244,0.014,0.000,0.123,0.001,/opt/conda/lib/python3.8/site-packages/torch/storage.py:60(clone)
+244,0.035,0.000,0.209,0.001,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:51(__deepcopy__)
+61,0.003,0.000,76.904,1.261,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:205(backward)
 3,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:556(__format__)
 7626,0.122,0.000,0.135,0.000,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:615(__hash__)
-32422,0.845,0.000,0.901,0.000,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:967(grad)
+32422,0.841,0.000,0.895,0.000,/opt/conda/lib/python3.8/site-packages/torch/_tensor.py:967(grad)
 200,0.005,0.000,0.005,0.000,{built-in method tensor}
-2000,2.931,0.001,2.931,0.001,{built-in method batch_norm}
+2000,2.672,0.001,2.672,0.001,{built-in method batch_norm}
 62,0.011,0.000,0.011,0.000,{built-in method clone}
-2000,40.938,0.020,40.938,0.020,{built-in method conv2d}
+2000,39.848,0.020,39.848,0.020,{built-in method conv2d}
 4,0.000,0.000,0.000,0.000,{built-in method empty}
 100,0.003,0.000,0.003,0.000,{built-in method flatten}
 100,0.005,0.000,0.005,0.000,{built-in method max}
-100,2.671,0.027,2.675,0.027,{built-in method max_pool2d}
+100,2.669,0.027,2.672,0.027,{built-in method max_pool2d}
 61,0.001,0.000,0.001,0.000,{built-in method ones_like}
 2,0.000,0.000,0.000,0.000,{built-in method randperm}
-1700,0.299,0.000,0.299,0.000,{built-in method relu_}
+1700,0.282,0.000,0.282,0.000,{built-in method relu_}
 100,0.003,0.000,0.003,0.000,{built-in method sum}
 263,0.006,0.000,0.006,0.000,{built-in method zeros}
 100,0.010,0.000,0.010,0.000,{built-in method torch._C._nn.adaptive_avg_pool2d}
-100,0.009,0.000,0.009,0.000,{built-in method torch._C._nn.cross_entropy_loss}
+100,0.008,0.000,0.008,0.000,{built-in method torch._C._nn.cross_entropy_loss}
 100,0.008,0.000,0.008,0.000,{built-in method torch._C._nn.linear}
 2,0.000,0.000,0.000,0.000,{method 'manual_seed' of 'torch._C.Generator' objects}
-61,79.397,1.302,79.397,1.302,{method 'run_backward' of 'torch._C._EngineBase' objects}
+61,76.886,1.260,76.886,1.260,{method 'run_backward' of 'torch._C._EngineBase' objects}
 200,0.006,0.000,0.014,0.000,/opt/conda/lib/python3.8/site-packages/torch/_utils.py:130(_rebuild_tensor)
-244,0.010,0.000,0.010,0.000,/opt/conda/lib/python3.8/site-packages/torch/_utils.py:467(_get_device_index)
+244,0.010,0.000,0.011,0.000,/opt/conda/lib/python3.8/site-packages/torch/_utils.py:467(_get_device_index)
 800,0.014,0.000,0.033,0.000,/opt/conda/lib/python3.8/hmac.py:56(<lambda>)
 400,0.057,0.000,0.099,0.000,/opt/conda/lib/python3.8/hmac.py:33(__init__)
 400,0.005,0.000,0.005,0.000,/opt/conda/lib/python3.8/hmac.py:94(update)
 400,0.009,0.000,0.011,0.000,/opt/conda/lib/python3.8/hmac.py:111(_current)
 400,0.009,0.000,0.020,0.000,/opt/conda/lib/python3.8/hmac.py:120(digest)
-400,0.008,0.000,0.107,0.000,/opt/conda/lib/python3.8/hmac.py:136(new)
+400,0.008,0.000,0.108,0.000,/opt/conda/lib/python3.8/hmac.py:136(new)
 224,0.001,0.000,0.001,0.000,{method 'acquire' of '_multiprocessing.SemLock' objects}
 210,0.000,0.000,0.000,0.000,{method 'release' of '_multiprocessing.SemLock' objects}
 10,0.000,0.000,0.000,0.000,{method '__enter__' of '_multiprocessing.SemLock' objects}
@@ -392,48 +392,48 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 800,0.003,0.000,0.003,0.000,{built-in method _hashlib.new}
 800,0.016,0.000,0.019,0.000,/opt/conda/lib/python3.8/hashlib.py:146(__hash_new)
 40,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/tempfile.py:133(rng)
-40,0.004,0.000,0.028,0.001,/opt/conda/lib/python3.8/tempfile.py:147(<listcomp>)
-40,0.002,0.000,0.032,0.001,/opt/conda/lib/python3.8/tempfile.py:144(__next__)
-533,0.000,0.000,0.000,0.000,{method 'getrandbits' of '_random.Random' objects}
+40,0.004,0.000,0.029,0.001,/opt/conda/lib/python3.8/tempfile.py:147(<listcomp>)
+40,0.002,0.000,0.033,0.001,/opt/conda/lib/python3.8/tempfile.py:144(__next__)
+587,0.001,0.000,0.001,0.000,{method 'getrandbits' of '_random.Random' objects}
 1,0.000,0.000,0.000,0.000,{method 'disable' of '_lsprof.Profiler' objects}
-320,0.012,0.000,0.012,0.000,/opt/conda/lib/python3.8/random.py:250(_randbelow_with_getrandbits)
-320,0.011,0.000,0.024,0.000,/opt/conda/lib/python3.8/random.py:285(choice)
+320,0.015,0.000,0.016,0.000,/opt/conda/lib/python3.8/random.py:250(_randbelow_with_getrandbits)
+320,0.009,0.000,0.025,0.000,/opt/conda/lib/python3.8/random.py:285(choice)
 200,0.000,0.000,0.000,0.000,{method 'frombytes' of 'array.array' objects}
 200,0.001,0.000,0.001,0.000,{method 'dump' of '_pickle.Pickler' objects}
-100,0.013,0.000,1.147,0.011,{built-in method _pickle.loads}
-1040/2,0.085,0.000,0.340,0.170,/opt/conda/lib/python3.8/copy.py:128(deepcopy)
+100,0.012,0.000,1.276,0.013,{built-in method _pickle.loads}
+1040/2,0.083,0.000,0.332,0.166,/opt/conda/lib/python3.8/copy.py:128(deepcopy)
 654,0.006,0.000,0.006,0.000,/opt/conda/lib/python3.8/copy.py:182(_deepcopy_atomic)
 138/2,0.007,0.000,0.060,0.030,/opt/conda/lib/python3.8/copy.py:226(_deepcopy_dict)
-386,0.007,0.000,0.008,0.000,/opt/conda/lib/python3.8/copy.py:242(_keep_alive)
-4/2,0.015,0.004,0.339,0.170,/opt/conda/lib/python3.8/copy.py:258(_reconstruct)
+386,0.008,0.000,0.009,0.000,/opt/conda/lib/python3.8/copy.py:242(_keep_alive)
+4/2,0.015,0.004,0.331,0.166,/opt/conda/lib/python3.8/copy.py:258(_reconstruct)
 22,0.001,0.000,0.034,0.002,/opt/conda/lib/python3.8/multiprocessing/context.py:65(Lock)
 2,0.000,0.000,0.007,0.004,/opt/conda/lib/python3.8/multiprocessing/context.py:75(Condition)
-8,0.000,0.000,0.010,0.001,/opt/conda/lib/python3.8/multiprocessing/context.py:80(Semaphore)
-10,0.001,0.000,0.012,0.001,/opt/conda/lib/python3.8/multiprocessing/context.py:85(BoundedSemaphore)
+8,0.000,0.000,0.009,0.001,/opt/conda/lib/python3.8/multiprocessing/context.py:80(Semaphore)
+10,0.000,0.000,0.012,0.001,/opt/conda/lib/python3.8/multiprocessing/context.py:85(BoundedSemaphore)
 2,0.000,0.000,0.012,0.006,/opt/conda/lib/python3.8/multiprocessing/context.py:90(Event)
-10,0.002,0.000,0.055,0.005,/opt/conda/lib/python3.8/multiprocessing/context.py:100(Queue)
+10,0.002,0.000,0.056,0.006,/opt/conda/lib/python3.8/multiprocessing/context.py:100(Queue)
 42,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/context.py:187(get_context)
 40,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/context.py:197(get_start_method)
-8,0.001,0.000,1.112,0.139,/opt/conda/lib/python3.8/multiprocessing/context.py:222(_Popen)
+8,0.001,0.000,1.211,0.151,/opt/conda/lib/python3.8/multiprocessing/context.py:222(_Popen)
 20,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/context.py:233(get_context)
-8,0.001,0.000,1.111,0.139,/opt/conda/lib/python3.8/multiprocessing/context.py:274(_Popen)
+8,0.001,0.000,1.211,0.151,/opt/conda/lib/python3.8/multiprocessing/context.py:274(_Popen)
 240,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:37(current_process)
 8,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:61(_cleanup)
 16,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:94(<genexpr>)
-8,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:80(__init__)
+8,0.001,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:80(__init__)
 32,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:99(_check_closed)
-8,0.002,0.000,1.115,0.139,/opt/conda/lib/python3.8/multiprocessing/process.py:110(start)
-8,0.001,0.000,0.136,0.017,/opt/conda/lib/python3.8/multiprocessing/process.py:142(join)
+8,0.002,0.000,1.215,0.152,/opt/conda/lib/python3.8/multiprocessing/process.py:110(start)
+8,0.001,0.000,0.143,0.018,/opt/conda/lib/python3.8/multiprocessing/process.py:142(join)
 8,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:153(is_alive)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:189(name)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:205(daemon)
 200,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:213(authkey)
-8,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:234(ident)
-200,0.008,0.000,0.019,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:48(dumps)
-200,0.008,0.000,0.010,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:38(__init__)
-200,0.021,0.000,0.028,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:153(recvfds)
-200,0.011,0.000,0.068,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:186(recv_handle)
-1,0.465,0.465,138.278,138.278,main.py:46(train_model)
+8,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/multiprocessing/process.py:234(ident)
+200,0.007,0.000,0.017,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:48(dumps)
+200,0.006,0.000,0.008,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:38(__init__)
+200,0.021,0.000,0.033,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:153(recvfds)
+200,0.011,0.000,0.074,0.000,/opt/conda/lib/python3.8/multiprocessing/reduction.py:186(recv_handle)
+1,0.443,0.443,134.340,134.340,main.py:46(train_model)
 800,0.001,0.000,0.001,0.000,{built-in method _struct.pack}
 700,0.001,0.000,0.001,0.000,{built-in method _struct.unpack}
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/asyncio/coroutines.py:164(iscoroutinefunction)
@@ -448,46 +448,46 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 15,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/inspect.py:260(iscode)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/inspect.py:510(_is_wrapper)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/inspect.py:493(unwrap)
-1706,0.045,0.000,0.068,0.000,/opt/conda/lib/python3.8/inspect.py:654(getfile)
-4803,0.061,0.000,0.064,0.000,/opt/conda/lib/python3.8/inspect.py:699(<genexpr>)
+1706,0.044,0.000,0.068,0.000,/opt/conda/lib/python3.8/inspect.py:654(getfile)
+4803,0.061,0.000,0.065,0.000,/opt/conda/lib/python3.8/inspect.py:699(<genexpr>)
 6194,0.078,0.000,0.083,0.000,/opt/conda/lib/python3.8/inspect.py:702(<genexpr>)
-1601,0.102,0.000,0.489,0.000,/opt/conda/lib/python3.8/inspect.py:692(getsourcefile)
-1601,0.060,0.000,1.112,0.001,/opt/conda/lib/python3.8/inspect.py:714(getabsfile)
-1,0.113,0.113,4.003,4.003,/opt/conda/lib/python3.8/inspect.py:726(getmodule)
-1,0.000,0.000,4.035,4.035,/opt/conda/lib/python3.8/inspect.py:772(findsource)
+1601,0.101,0.000,0.489,0.000,/opt/conda/lib/python3.8/inspect.py:692(getsourcefile)
+1601,0.060,0.000,1.113,0.001,/opt/conda/lib/python3.8/inspect.py:714(getabsfile)
+1,0.114,0.114,4.067,4.067,/opt/conda/lib/python3.8/inspect.py:726(getmodule)
+1,0.000,0.000,4.099,4.099,/opt/conda/lib/python3.8/inspect.py:772(findsource)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/inspect.py:899(__init__)
-476,0.018,0.000,0.018,0.000,/opt/conda/lib/python3.8/inspect.py:909(tokeneater)
-1,0.010,0.010,0.518,0.518,/opt/conda/lib/python3.8/inspect.py:959(getblock)
-1,0.000,0.000,4.553,4.553,/opt/conda/lib/python3.8/inspect.py:970(getsourcelines)
+476,0.019,0.000,0.019,0.000,/opt/conda/lib/python3.8/inspect.py:909(tokeneater)
+1,0.010,0.010,0.519,0.519,/opt/conda/lib/python3.8/inspect.py:959(getblock)
+1,0.000,0.000,4.619,4.619,/opt/conda/lib/python3.8/inspect.py:970(getsourcelines)
 108,0.000,0.000,0.000,0.000,{built-in method math.ceil}
 108,0.004,0.000,0.007,0.000,/opt/conda/lib/python3.8/selectors.py:21(_fileobj_to_fd)
 108,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/selectors.py:63(__init__)
 108,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/selectors.py:199(__enter__)
 108,0.002,0.000,0.004,0.000,/opt/conda/lib/python3.8/selectors.py:202(__exit__)
 108,0.003,0.000,0.004,0.000,/opt/conda/lib/python3.8/selectors.py:209(__init__)
-108,0.002,0.000,0.010,0.000,/opt/conda/lib/python3.8/selectors.py:215(_fileobj_lookup)
+108,0.003,0.000,0.010,0.000,/opt/conda/lib/python3.8/selectors.py:215(_fileobj_lookup)
 108,0.006,0.000,0.017,0.000,/opt/conda/lib/python3.8/selectors.py:234(register)
 108,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/selectors.py:268(close)
-108,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/selectors.py:275(_key_from_fd)
-108,0.003,0.000,0.007,0.000,/opt/conda/lib/python3.8/selectors.py:347(__init__)
-108,0.006,0.000,0.023,0.000,/opt/conda/lib/python3.8/selectors.py:351(register)
-108,0.014,0.000,0.428,0.004,/opt/conda/lib/python3.8/selectors.py:402(select)
+108,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/selectors.py:275(_key_from_fd)
+108,0.004,0.000,0.008,0.000,/opt/conda/lib/python3.8/selectors.py:347(__init__)
+108,0.006,0.000,0.024,0.000,/opt/conda/lib/python3.8/selectors.py:351(register)
+108,0.013,0.000,0.445,0.004,/opt/conda/lib/python3.8/selectors.py:402(select)
 18,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/threading.py:222(__init__)
-124,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/threading.py:246(__enter__)
-124,0.001,0.000,0.002,0.000,/opt/conda/lib/python3.8/threading.py:249(__exit__)
+124,0.002,0.000,0.003,0.000,/opt/conda/lib/python3.8/threading.py:246(__enter__)
+124,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/threading.py:249(__exit__)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/threading.py:255(_release_save)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/threading.py:258(_acquire_restore)
 124,0.002,0.000,0.002,0.000,/opt/conda/lib/python3.8/threading.py:261(_is_owned)
-8,0.001,0.000,0.035,0.004,/opt/conda/lib/python3.8/threading.py:270(wait)
-116,0.008,0.000,0.011,0.000,/opt/conda/lib/python3.8/threading.py:341(notify)
+8,0.001,0.000,0.017,0.002,/opt/conda/lib/python3.8/threading.py:270(wait)
+116,0.008,0.000,0.012,0.000,/opt/conda/lib/python3.8/threading.py:341(notify)
 8,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/threading.py:505(__init__)
 16,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/threading.py:513(is_set)
-8,0.000,0.000,0.035,0.004,/opt/conda/lib/python3.8/threading.py:540(wait)
-8,0.002,0.000,0.004,0.000,/opt/conda/lib/python3.8/threading.py:761(__init__)
-8,0.001,0.000,0.037,0.005,/opt/conda/lib/python3.8/threading.py:834(start)
+8,0.001,0.000,0.018,0.002,/opt/conda/lib/python3.8/threading.py:540(wait)
+8,0.002,0.000,0.004,0.001,/opt/conda/lib/python3.8/threading.py:761(__init__)
+8,0.001,0.000,0.020,0.002,/opt/conda/lib/python3.8/threading.py:834(start)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/threading.py:1095(daemon)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/threading.py:1110(daemon)
-8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/threading.py:1177(_make_invoke_excepthook)
+8,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/threading.py:1177(_make_invoke_excepthook)
 10,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/threading.py:1306(current_thread)
 200,0.002,0.000,0.003,0.000,/opt/conda/lib/python3.8/socket.py:492(_real_close)
 200,0.005,0.000,0.008,0.000,/opt/conda/lib/python3.8/socket.py:496(close)
@@ -498,11 +498,11 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 26,0.001,0.000,0.002,0.000,/opt/conda/lib/python3.8/sre_parse.py:84(opengroup)
 26,0.001,0.000,0.032,0.001,/opt/conda/lib/python3.8/sre_parse.py:96(closegroup)
 305,0.008,0.000,0.008,0.000,/opt/conda/lib/python3.8/sre_parse.py:111(__init__)
-478,0.006,0.000,0.007,0.000,/opt/conda/lib/python3.8/sre_parse.py:160(__len__)
+478,0.007,0.000,0.007,0.000,/opt/conda/lib/python3.8/sre_parse.py:160(__len__)
 1537,0.027,0.000,0.030,0.000,/opt/conda/lib/python3.8/sre_parse.py:164(__getitem__)
 63,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/sre_parse.py:168(__setitem__)
 443,0.006,0.000,0.007,0.000,/opt/conda/lib/python3.8/sre_parse.py:172(append)
-306/29,0.031,0.000,0.032,0.001,/opt/conda/lib/python3.8/sre_parse.py:174(getwidth)
+306/29,0.032,0.000,0.033,0.001,/opt/conda/lib/python3.8/sre_parse.py:174(getwidth)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_parse.py:224(__init__)
 949,0.029,0.000,0.029,0.000,/opt/conda/lib/python3.8/sre_parse.py:233(__next)
 510,0.010,0.000,0.019,0.000,/opt/conda/lib/python3.8/sre_parse.py:249(match)
@@ -511,12 +511,12 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 12,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_parse.py:295(_class_escape)
 55,0.004,0.000,0.004,0.000,/opt/conda/lib/python3.8/sre_parse.py:355(_escape)
 51,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/sre_parse.py:432(_uniq)
-52/2,0.014,0.000,0.277,0.139,/opt/conda/lib/python3.8/sre_parse.py:435(_parse_sub)
-221/5,0.127,0.001,0.276,0.055,/opt/conda/lib/python3.8/sre_parse.py:493(_parse)
+52/2,0.014,0.000,0.279,0.139,/opt/conda/lib/python3.8/sre_parse.py:435(_parse_sub)
+221/5,0.127,0.001,0.278,0.056,/opt/conda/lib/python3.8/sre_parse.py:493(_parse)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_parse.py:921(fix_flags)
-2,0.000,0.000,0.278,0.139,/opt/conda/lib/python3.8/sre_parse.py:937(parse)
+2,0.000,0.000,0.279,0.140,/opt/conda/lib/python3.8/sre_parse.py:937(parse)
 1,0.000,0.000,0.003,0.003,/opt/conda/lib/python3.8/linecache.py:15(getline)
-3,0.000,0.000,0.004,0.001,/opt/conda/lib/python3.8/linecache.py:37(getlines)
+3,0.000,0.000,0.003,0.001,/opt/conda/lib/python3.8/linecache.py:37(getlines)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/linecache.py:53(checkcache)
 1,0.000,0.000,0.003,0.003,/opt/conda/lib/python3.8/linecache.py:82(updatecache)
 369,0.006,0.000,0.398,0.001,/opt/conda/lib/python3.8/tokenize.py:98(_compile)
@@ -524,39 +524,39 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/tokenize.py:325(find_cookie)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/tokenize.py:295(detect_encoding)
 1,0.000,0.000,0.001,0.001,/opt/conda/lib/python3.8/tokenize.py:388(open)
-477,0.082,0.000,0.489,0.001,/opt/conda/lib/python3.8/tokenize.py:429(_tokenize)
+477,0.083,0.000,0.490,0.001,/opt/conda/lib/python3.8/tokenize.py:429(_tokenize)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/tokenize.py:612(generate_tokens)
-370,0.006,0.000,0.422,0.001,/opt/conda/lib/python3.8/re.py:250(compile)
-370,0.011,0.000,0.416,0.001,/opt/conda/lib/python3.8/re.py:289(_compile)
+370,0.006,0.000,0.423,0.001,/opt/conda/lib/python3.8/re.py:250(compile)
+370,0.012,0.000,0.417,0.001,/opt/conda/lib/python3.8/re.py:289(_compile)
 4,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/enum.py:313(__call__)
 4,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/enum.py:631(__new__)
 369,0.004,0.000,0.004,0.000,/opt/conda/lib/python3.8/enum.py:748(value)
 26,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_compile.py:65(_combine_flags)
 59,0.004,0.000,0.004,0.000,/opt/conda/lib/python3.8/sre_compile.py:249(_compile_charset)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/enum.py:933(__and__)
-59,0.018,0.000,0.019,0.000,/opt/conda/lib/python3.8/sre_compile.py:276(_optimize_charset)
-280/2,0.070,0.000,0.112,0.056,/opt/conda/lib/python3.8/sre_compile.py:71(_compile)
+59,0.017,0.000,0.019,0.000,/opt/conda/lib/python3.8/sre_compile.py:276(_optimize_charset)
+280/2,0.069,0.000,0.111,0.055,/opt/conda/lib/python3.8/sre_compile.py:71(_compile)
 6,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/sre_compile.py:413(<listcomp>)
 6,0.000,0.000,0.001,0.000,/opt/conda/lib/python3.8/sre_compile.py:411(_mk_bitmap)
 62,0.002,0.000,0.003,0.000,/opt/conda/lib/python3.8/sre_compile.py:423(_simple)
 2,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_compile.py:453(_get_iscased)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_compile.py:461(_get_literal_prefix)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_compile.py:492(_get_charset_prefix)
-2,0.000,0.000,0.001,0.001,/opt/conda/lib/python3.8/sre_compile.py:536(_compile_info)
+2,0.000,0.000,0.002,0.001,/opt/conda/lib/python3.8/sre_compile.py:536(_compile_info)
 4,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/sre_compile.py:595(isstring)
-2,0.000,0.000,0.114,0.057,/opt/conda/lib/python3.8/sre_compile.py:598(_code)
+2,0.000,0.000,0.112,0.056,/opt/conda/lib/python3.8/sre_compile.py:598(_code)
 2,0.000,0.000,0.392,0.196,/opt/conda/lib/python3.8/sre_compile.py:759(compile)
 400,0.018,0.000,0.018,0.000,/opt/conda/lib/python3.8/socket.py:219(__init__)
 400,0.003,0.000,0.003,0.000,/opt/conda/lib/python3.8/socket.py:235(__enter__)
-400,0.006,0.000,0.013,0.000,/opt/conda/lib/python3.8/socket.py:238(__exit__)
+400,0.006,0.000,0.014,0.000,/opt/conda/lib/python3.8/socket.py:238(__exit__)
 8,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/logging/__init__.py:214(_acquireLock)
 8,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/logging/__init__.py:223(_releaseLock)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/functools.py:429(_unwrap_partial)
-48,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/weakref.py:103(remove)
+42,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/weakref.py:103(remove)
 50,0.002,0.000,0.004,0.000,/opt/conda/lib/python3.8/weakref.py:159(__setitem__)
 50,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/weakref.py:323(__new__)
 50,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/weakref.py:328(__init__)
-15,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/_weakrefset.py:38(_remove)
+12,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/_weakrefset.py:38(_remove)
 16,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/_weakrefset.py:81(add)
 1,0.000,0.000,0.004,0.004,/opt/conda/lib/python3.8/warnings.py:117(_formatwarnmsg)
 1,0.000,0.000,0.004,0.004,/opt/conda/lib/python3.8/warnings.py:96(_showwarnmsg)
@@ -569,25 +569,25 @@ ncalls,tottime,percall,cumtime,percall,filename:lineno(function)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/contextlib.py:117(__exit__)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/contextlib.py:238(helper)
 108,0.000,0.000,0.000,0.000,{method 'register' of 'select.poll' objects}
-108,0.412,0.004,0.412,0.004,{method 'poll' of 'select.poll' objects}
+108,0.430,0.004,0.430,0.004,{method 'poll' of 'select.poll' objects}
 108,0.000,0.000,0.000,0.000,{built-in method select.poll}
-200,0.000,0.000,0.000,0.000,{function socket.close at 0x7fc3cb7030d0}
+200,0.000,0.000,0.000,0.000,{function socket.close at 0x7f2d6e9280d0}
 200,0.006,0.000,0.006,0.000,{method 'connect' of '_socket.socket' objects}
-200,0.000,0.000,0.000,0.000,{function socket.detach at 0x7fc3cb703160}
-200,0.000,0.000,0.000,0.000,{method 'setblocking' of '_socket.socket' objects}
-200,0.006,0.000,0.006,0.000,{method 'recvmsg' of '_socket.socket' objects}
+200,0.000,0.000,0.000,0.000,{function socket.detach at 0x7f2d6e928160}
+200,0.001,0.000,0.001,0.000,{method 'setblocking' of '_socket.socket' objects}
+200,0.011,0.000,0.011,0.000,{method 'recvmsg' of '_socket.socket' objects}
 200,0.001,0.000,0.001,0.000,{built-in method _socket.dup}
 200,0.000,0.000,0.000,0.000,{built-in method _socket.CMSG_SPACE}
-17189,0.260,0.000,0.277,0.000,/opt/conda/lib/python3.8/posixpath.py:41(_get_sep)
-1601,0.019,0.000,0.021,0.000,/opt/conda/lib/python3.8/posixpath.py:52(normcase)
-4801,0.124,0.000,0.211,0.000,/opt/conda/lib/python3.8/posixpath.py:60(isabs)
-12388,0.732,0.000,0.969,0.000,/opt/conda/lib/python3.8/posixpath.py:71(join)
-12387,0.286,0.000,0.426,0.000,/opt/conda/lib/python3.8/posixpath.py:164(islink)
-3201,0.780,0.000,0.820,0.000,/opt/conda/lib/python3.8/posixpath.py:334(normpath)
-3201,0.104,0.000,1.068,0.000,/opt/conda/lib/python3.8/posixpath.py:372(abspath)
-1600,0.054,0.000,2.734,0.002,/opt/conda/lib/python3.8/posixpath.py:387(realpath)
-1600,0.664,0.000,2.147,0.001,/opt/conda/lib/python3.8/posixpath.py:396(_joinrealpath)
-1497,0.034,0.000,0.059,0.000,/opt/conda/lib/python3.8/genericpath.py:16(exists)
+17189,0.266,0.000,0.283,0.000,/opt/conda/lib/python3.8/posixpath.py:41(_get_sep)
+1601,0.020,0.000,0.021,0.000,/opt/conda/lib/python3.8/posixpath.py:52(normcase)
+4801,0.123,0.000,0.211,0.000,/opt/conda/lib/python3.8/posixpath.py:60(isabs)
+12388,0.756,0.000,0.999,0.000,/opt/conda/lib/python3.8/posixpath.py:71(join)
+12387,0.291,0.000,0.438,0.000,/opt/conda/lib/python3.8/posixpath.py:164(islink)
+3201,0.785,0.000,0.825,0.000,/opt/conda/lib/python3.8/posixpath.py:334(normpath)
+3201,0.103,0.000,1.072,0.000,/opt/conda/lib/python3.8/posixpath.py:372(abspath)
+1600,0.054,0.000,2.797,0.002,/opt/conda/lib/python3.8/posixpath.py:387(realpath)
+1600,0.683,0.000,2.206,0.001,/opt/conda/lib/python3.8/posixpath.py:396(_joinrealpath)
+1497,0.034,0.000,0.060,0.000,/opt/conda/lib/python3.8/genericpath.py:16(exists)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/codecs.py:260(__init__)
 1,0.000,0.000,0.000,0.000,/opt/conda/lib/python3.8/codecs.py:309(__init__)
 27,0.001,0.000,0.001,0.000,/opt/conda/lib/python3.8/codecs.py:319(decode)

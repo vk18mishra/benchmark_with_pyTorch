@@ -1,3 +1,4 @@
+import json
 import matplotlib.pyplot as plt
 import psutil
 from datetime import datetime
@@ -41,6 +42,8 @@ if __name__ == "__main__":
     cnt = 0
     cpu_use = []
     mem_use = []
+    dict_cpu_c = {}
+    dict_mem_c = {}
     try:
         while 1:
             # get all process info
@@ -84,11 +87,8 @@ if __name__ == "__main__":
                                 print(s_c)
                                 s_cp.append(s_c)
                                 t_c = 1
-                            break
                     if(t_c==1):
                         break
-                    else:
-                        continue
                 #except:
                 #    print("main not started")
                 # cpu_use_t = s1.iloc[0]['cpu_usage']
@@ -102,11 +102,22 @@ if __name__ == "__main__":
                 for child_process in s_cp:
                     cpu_childs = cpu_childs + child_process.iloc[0]['cpu_usage']
                     mem_childs = mem_childs + child_process.iloc[0]['memory_usage']
-                    # pid_t_c = child_process.iloc[0]['pid']
+                    pid_t_c = child_process.iloc[0]['pid']
+                    pid_t_c_i = str(pid_t_c)
+                    dict_cpu_c.setdefault(pid_t_c_i, [])
+                    dict_mem_c.setdefault(pid_t_c_i, [])
+                    dict_cpu_c[pid_t_c_i].append(child_process.iloc[0]['cpu_usage'])
+                    dict_mem_c[pid_t_c_i].append(child_process.iloc[0]['memory_usage'])
                 cpu_use.append(cpu_childs)
                 mem_use.append(mem_childs)
             time.sleep(4)
     except KeyboardInterrupt:
+        f = open("CPU_Memory_Subprocesses.txt", "w")
+        f.write("CPU Consumption Overtime - Every Subprocess\n\n")
+        f.write(json.dumps(dict_cpu_c))
+        f.write("\n\nMemory Consumption Overtime - Every Subprocess\n\n")
+        f.write(json.dumps(dict_mem_c))
+        f.close()
         len_cnt = len(cpu_use)
         len_cnt = len_cnt*4
         x_time = list(range(0, len_cnt, 4))
