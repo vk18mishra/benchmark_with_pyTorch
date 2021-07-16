@@ -116,13 +116,13 @@ if __name__ == "__main__":
         plt.plot(x_time, cpu_use, '-o')
         plt.xlabel('Time(in secs)')
         plt.ylabel('CPU Consumption(%)')
-        plt.title('Tracking CPU usage using second process - All Child Processes combined')
+        plt.title('CPU usage using second process - All Child Processes combined')
         plt.savefig('cpu_consumption_overtime.png')
         plt.clf()
         plt.plot(x_time, mem_use, '-o')
         plt.xlabel('Time(in secs)')
         plt.ylabel('Memory Consumption(MB)')
-        plt.title('Tracking Memory usage using second process - All Child Processes combined')
+        plt.title('Memory usage using second process - All Child Processes combined')
         plt.savefig('memory_consumption_with_secondPRO.png')
 
 

@@ -1,14 +1,14 @@
 BEFORE TRAINING:--------
-CPU USAGE(%):4.5
-MEMORY USE:{'total': 523542122496, 'available': 517378166784, 'percent': 1.2, 'used': 5908504576, 'free': 475085029376, 'active': 14569275392, 'inactive': 28895154176, 'buffers': 2379526144, 'cached': 40169062400, 'shared': 3694592, 'slab': 3970441216}
+CPU USAGE(%):5.0
+MEMORY USE:{'total': 523542122496, 'available': 517379293184, 'percent': 1.2, 'used': 5908197376, 'free': 475086286848, 'active': 14565306368, 'inactive': 28894945280, 'buffers': 2379526144, 'cached': 40168112128, 'shared': 3694592, 'slab': 3970912256}
 MEMORY USE(%):1.2
-MEMORY AVAIL(%):98.8226437860218
+MEMORY AVAIL(%):98.82285893585437
 
 
 
 
 AFTER TRAINING:---------
-CPU USAGE(%):2.9
-MEMORY USE:{'total': 523542122496, 'available': 517052489728, 'percent': 1.2, 'used': 6234296320, 'free': 474759786496, 'active': 14939684864, 'inactive': 28849209344, 'buffers': 2379526144, 'cached': 40168513536, 'shared': 3735552, 'slab': 3971104768}
+CPU USAGE(%):3.0
+MEMORY USE:{'total': 523542122496, 'available': 517074092032, 'percent': 1.2, 'used': 6212005888, 'free': 474781908992, 'active': 14913150976, 'inactive': 28848873472, 'buffers': 2379526144, 'cached': 40168681472, 'shared': 3907584, 'slab': 3970719744}
 MEMORY USE(%):1.2
-MEMORY AVAIL(%):98.76043731933918
+MEMORY AVAIL(%):98.76456350194641
