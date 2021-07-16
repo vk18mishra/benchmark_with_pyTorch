@@ -64,15 +64,47 @@ if __name__ == "__main__":
                 main_pid = all_pids[mprof_ind]
                 print("main pid: ",main_pid)
                 s1 = df[df.eq(main_pid).any(1)]
-                print(s1)
+                #print(s1)
+                for process in psutil.process_iter():
+                # get all process info in one shot
+                    t_c = 0
+                    with process.oneshot():
+                    # get the process id
+                        pid = process.pid
+                        name = process.name()
+                        if(name=='mprof'):
+                            m_c = df[df.eq(pid).any(1)]
+                            print(m_c)
+                            children = process.children(recursive=True)
+                            i_c = 0
+                            s_cp = []
+                            for child in children:
+                                child_t = child.pid
+                                s_c = df[df.eq(child_t).any(1)]
+                                print(s_c)
+                                s_cp.append(s_c)
+                                t_c = 1
+                            break
+                    if(t_c==1):
+                        break
+                    else:
+                        continue
                 #except:
                 #    print("main not started")
-                cpu_use_t = s1.iloc[0]['cpu_usage']
-                mem_use_t = s1.iloc[0]['memory_usage']
+                # cpu_use_t = s1.iloc[0]['cpu_usage']
+                # mem_use_t = s1.iloc[0]['memory_usage']
                 cnt = cnt+1
                 #print("CPU Usage: ",cpu_use_t)
-                mem_use.append(mem_use_t)
-                cpu_use.append(cpu_use_t)
+                # mem_use.append(mem_use_t)
+                # cpu_use.append(cpu_use_t)
+                cpu_childs = 0
+                mem_childs = 0
+                for child_process in s_cp:
+                    cpu_childs = cpu_childs + child_process.iloc[0]['cpu_usage']
+                    mem_childs = mem_childs + child_process.iloc[0]['memory_usage']
+                    # pid_t_c = child_process.iloc[0]['pid']
+                cpu_use.append(cpu_childs)
+                mem_use.append(mem_childs)
             time.sleep(4)
     except KeyboardInterrupt:
         len_cnt = len(cpu_use)
@@ -84,13 +116,13 @@ if __name__ == "__main__":
         plt.plot(x_time, cpu_use, '-o')
         plt.xlabel('Time(in secs)')
         plt.ylabel('CPU Consumption(%)')
-        plt.title('Tracking CPU Consumption Overtime using second process')
+        plt.title('Tracking CPU usage using second process - All Child Processes combined')
         plt.savefig('cpu_consumption_overtime.png')
         plt.clf()
         plt.plot(x_time, mem_use, '-o')
         plt.xlabel('Time(in secs)')
         plt.ylabel('Memory Consumption(MB)')
-        plt.title('Tracking Memory Consumption Overtime using second process')
+        plt.title('Tracking Memory usage using second process - All Child Processes combined')
         plt.savefig('memory_consumption_with_secondPRO.png')
 
 

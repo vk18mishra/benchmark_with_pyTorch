@@ -38,11 +38,11 @@ import copy
 #         plt.title(title)
 #     plt.pause(0.001)  # pause a bit so that plots are updated
 
-# pyRAPL.setup()
+#pyRAPL.setup()
 
-# csv_output = pyRAPL.outputs.CSVOutput('energy_pyRAPL.csv')
+#csv_output = pyRAPL.outputs.CSVOutput('energy_pyRAPL.csv')
 
-# @pyRAPL.measure(output=csv_output)
+#@pyRAPL.measure(output=csv_output)
 @profile(precision=3)
 def train_model(model, criterion, optimizer, scheduler, num_epochs=1):
     since = time.time()
@@ -224,7 +224,7 @@ if __name__ == '__main__':
     with profiler:
         model_ft = train_model(model_ft, criterion, optimizer_ft, exp_lr_scheduler,
                            num_epochs=1)
-        # csv_output.save()
+        #csv_output.save()
     end_train = time.time()
     pr.disable()
     elapsed_time = end_train-start_train
