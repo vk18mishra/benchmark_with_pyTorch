@@ -37,7 +37,7 @@ import copy
 #csv_output = pyRAPL.outputs.CSVOutput('energy_pyRAPL.csv')
 
 # @pyRAPL.measure(output=csv_output)
-# @profile(precision=3)
+@profile(precision=3)
 def train_model(model, criterion, optimizer, scheduler, num_epochs=1):
     since = time.time()
     # -------------------------------------------------------------------
